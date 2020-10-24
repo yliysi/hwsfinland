@@ -1,0 +1,64 @@
+body{
+    background: rgb(172, 73, 71);
+    font-family: sans-serif,arial;
+    font-size: 20px;
+}
+
+.wrapper{
+    border-radius: 50px 50px 100px 100px;
+    background: white;
+    width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+/* the top corner rounding shit idk */
+.top{
+    border-radius: 0px 0px 500px 500px;
+    background: rgb(172, 73, 71);
+    margin: 25px;
+    height:50px;
+    font-size:30px;
+    text-align: center;
+    color:white;
+}
+
+.main{
+    border-style: solid hidden;
+    border: 10px rgba(0,111,255,1);
+    margin: 25px;
+    padding: 25px;
+}
+
+/* SECTION BREAK */
+.title{
+    color: white;
+    background: rgb(172, 73, 71);
+    padding:10px;
+}
+
+/* TABLE POSITION */
+table{
+    margin:auto;
+}
+
+/* TABLE CELL PADDING */
+th, td{
+    padding: 25px;
+}
+
+/* SHIP TABLE STYLE */
+table.ships th,td{
+    border: hidden black;
+}
+
+/* the bottom corner rounding shit idk */
+.bottom{
+    border-radius: 100px 100px 0px 0px;
+    background: rgb(172, 73, 71);
+    margin: 25px;
+    padding: 25px;
+    height:10px;
+    font-size:10px;
+    text-align: center;
+}
